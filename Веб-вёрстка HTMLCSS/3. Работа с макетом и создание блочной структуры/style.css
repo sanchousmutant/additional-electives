@@ -18,8 +18,9 @@
     text-decoration: none;
 }
 
-.container {
-    max-width: 1146px;
+* .container {
+    max-width: 1174px;
+    margin: 0 auto;
 }
 
 body {
@@ -40,11 +41,6 @@ body {
 img {
     display: block;
     max-width: 100%;
-}
-
-
-
-.navigation {
 }
 
 .main {
