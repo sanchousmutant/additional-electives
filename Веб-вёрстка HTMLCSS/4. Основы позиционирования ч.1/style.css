@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('./font/Inter/Inter-Regular.otf');
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url('./font/Inter/Inter-Bold.otf');
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url('./font/Inter/Inter-SemiBold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 44px;
+}
+
+.navigation a {
+    font-size: 14px;
+    font-family: "Inter-Regular";
+    color: black;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Inter-Bold";
+}
+.main p {
+    font-size: 20px;
+    color: #888888;
+    margin-bottom: 32px;
+    line-height: 140%;
+    font-family: "Inter-Regular";
+}
+
+.button button{
+    font-size: 16px;
+    border-style: none;
+    font-family: "Inter-SemiBold";
+    width: 140px;
+    height: 51px;
+}
+
+.button_start {
+    background: #F25822;
+    color: white;
+    border-radius: 56px;
+    cursor: pointer;
+    padding: 16px 31px;
+}
+
+.button_watch {
+    color: #AAAAAA;
+    background: none;
+    cursor: pointer;
+    margin-left: 48px;
+}
+
+.footer {
+    padding: 100px 0;
+}
+
