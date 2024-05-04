@@ -75,6 +75,7 @@ img {
     border-radius: 56px;
     cursor: pointer;
     padding: 16px 31px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
 }
 
 .button_watch {

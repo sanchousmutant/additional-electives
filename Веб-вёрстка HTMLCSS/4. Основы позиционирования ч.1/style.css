@@ -32,6 +32,17 @@ body {
     margin-bottom: 44px;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+    width: 577px;
+}
+
 .navigation a {
     font-size: 14px;
     font-family: "Inter-Regular";
@@ -52,6 +63,7 @@ img {
     font-size: 60px;
     line-height: 120%;
     font-family: "Inter-Bold";
+    width: 556px;
 }
 .main p {
     font-size: 20px;
@@ -59,6 +71,18 @@ img {
     margin-bottom: 32px;
     line-height: 140%;
     font-family: "Inter-Regular";
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_content_left {
+    width: 556px;
+}
+
+.button {
 }
 
 .button button{
@@ -75,6 +99,7 @@ img {
     border-radius: 56px;
     cursor: pointer;
     padding: 16px 31px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
 }
 
 .button_watch {
@@ -86,5 +111,11 @@ img {
 
 .footer {
     padding: 100px 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
 
