@@ -1,0 +1,229 @@
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url('./font/Inter/Inter-Regular.otf');
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url('./font/Inter/Inter-Bold.otf');
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url('./font/Inter/Inter-SemiBold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 44px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+    width: 577px;
+}
+
+.navigation a {
+    font-size: 14px;
+    font-family: "Inter-Regular";
+    color: black;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "Inter-Bold";
+    width: 556px;
+}
+.main p {
+    font-size: 20px;
+    color: #888888;
+    margin-bottom: 32px;
+    line-height: 140%;
+    font-family: "Inter-Regular";
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main_content_left {
+    width: 556px;
+}
+
+.button {
+    
+}
+
+.button button{
+    font-size: 16px;
+    border-style: none;
+    font-family: "Inter-SemiBold";
+    width: 140px;
+    height: 51px;
+}
+
+.button_start {
+    background: #F25822;
+    color: white;
+    border-radius: 56px;
+    cursor: pointer;
+    padding: 16px 31px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+}
+
+.button_watch {
+    color: #AAAAAA;
+    background: none;
+    cursor: pointer;
+    margin-left: 48px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.icon_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 61px;
+    margin-bottom: 100px;
+}
+
+.icon {
+    padding: 40px 34px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.icon2 {
+    box-shadow: 15px 25px 56px 0px rgba(0, 0, 0, 0.06);
+}
+
+.icon h2 {
+    font-family: "Inter-Bold";
+    font-size: 24px;
+}
+.icon p {
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    color: #666666;
+    line-height: 150%;
+}
+
+.icon a {
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+}
+
+.section_bottom {
+    background: #fafafa;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.text_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_bottom h2{
+    margin-bottom: 24px;
+    font-family: "Inter-Bold";
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.text_bottom p {
+    padding: 0 217px;
+    line-height: 140%;
+    color: #888888;
+    font-family: "Inter-Regular";
+    font-size: 16px;
+}
+
+.diagram_list {
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+ .diagram {
+    background: #ffff;
+    padding: 0  34px 34px 34px;
+ }
+
+ .diagram h2 {
+    padding-top: 34px;
+    padding-bottom: 16px;
+    font-family: "Inter-Bold";
+    font-size: 24px;
+ }
+
+ .diagram p {
+    padding-bottom: 24px;
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    color: #666666;
+    line-height: 150%;
+ }
+
+ .diagram button {
+    margin: 0 72px;
+    border-style: none;
+    font-family: "Inter-SemiBold";
+    width: 166px;
+    height: 51px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+}
