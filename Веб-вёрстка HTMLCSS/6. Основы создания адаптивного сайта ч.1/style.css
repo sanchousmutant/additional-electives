@@ -20,6 +20,13 @@ body {
     align-items: center;
 }
 
+.navigation button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
 .nav_left {
     display: flex;
     margin-left: 231px;
@@ -56,22 +63,33 @@ main {
 
 
 .main_right {
+    width: 800px;
+    border-left: #F16D7F solid 12px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 16px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 16px;
 }
 
-.main_text h1 {
-    height: 93px;
+.main_right h1 {
     font-size: 48px;
     font-weight: 900;
     line-height: 57.6px;
 }
 
-.main_text span{
+.main_right h3 {
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
+}
+
+.main_right span{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: #F16D7F;
 }
 
 .center {
